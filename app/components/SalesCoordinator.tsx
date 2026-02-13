@@ -80,7 +80,7 @@ const SalesCoordinator = () => {
             <GoBack text="Application" />
             <div className="flex justify-between">
                 {steps?.map((step, index) => (
-                    <ProgressComponent key={index} currentIndex={currentIndex} index={index + 1} step={step.tabInfo} />
+                    <ProgressComponent key={index} currentIndex={currentIndex + 1} index={index + 1} step={step.tabInfo} />
                 ))}
             </div>
             {currentIndex === 0 && (
