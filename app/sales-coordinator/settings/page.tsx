@@ -18,7 +18,7 @@ import { FlexTextNumber } from '@/app/components/FlexTextNumber'
 import { ButtonSimulation } from '@/app/components/ButtonSimulation'
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts'
 import { TooltipProps } from 'recharts'
-import { NameType, ValueType, Payload } from 'recharts/types/component/DefaultTooltipContent'
+// import { NameType, ValueType, Payload } from 'recharts/types/component/DefaultTooltipContent'
 import ActiveTabRadius from '@/app/components/ActiveTabRadius'
 import NotificationTab from '@/app/components/NotificationTab'
 
