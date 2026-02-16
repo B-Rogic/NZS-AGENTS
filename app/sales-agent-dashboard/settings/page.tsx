@@ -38,7 +38,7 @@ interface Chart {
     value: string;
 }
 
-const CustomTooltip = ({active, payload}: TooltipProps<ValueType, NameType>) => {
+const CustomTooltip = ({active, payload}: any) => {
     if(active && payload && payload.length) {
         return (
             <div className='bg-[#1df08e] p-4 rounded-xl shadow-lg border-none text-white'>
