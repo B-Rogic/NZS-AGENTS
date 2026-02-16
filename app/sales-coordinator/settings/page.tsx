@@ -38,7 +38,7 @@ interface Chart {
     value: string;
 }
 
-const CustomTooltip = ({active, payload}: TooltipProps<ValueType, NameType>) => {
+const CustomTooltip = ({active, payload}: any) => {
     if (!active || !payload || !payload.length) {
         return null;
     }
