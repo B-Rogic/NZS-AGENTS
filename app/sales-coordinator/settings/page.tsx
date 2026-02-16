@@ -1,6 +1,6 @@
 'use client'
 import React, { useRef, useState } from 'react'
-import profile from '@/app/src/images/profile2.png'
+import profile from '@/app/src/images/profile.png'
 import Image from 'next/image'
 import {CircularProgressbar, buildStyles } from 'react-circular-progressbar'
 import "react-circular-progressbar/dist/styles.css"
@@ -38,7 +38,7 @@ interface Chart {
     value: string;
 }
 
-const CustomTooltip = ({active, payload}: any) => {
+const CustomTooltip = ({active, payload}: {active?:boolean; payload?:any}) => {
     if (!active || !payload || !payload.length) {
         return null;
     }
